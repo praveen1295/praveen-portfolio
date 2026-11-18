@@ -4,9 +4,9 @@ A full-stack **TypeScript + MERN (MongoDB, Express.js, React, Node.js)** + **Tai
 
 ## Live Demo
 
-- **Live Portfolio (Vercel):** [https://praveen-portfolio-brown-five.vercel.app/](https://www.google.com/search?q=https://praveen-portfolio-brown-five.vercel.app/)
-- **Backend API (Vercel):** [https://praveen-portfolio-api.vercel.app](https://www.google.com/search?q=https://praveen-portfolio-api.vercel.app)
-- **GitHub Repository:** [https://github.com/praveen1295/praveen-portfolio](https://www.google.com/search?q=https://github.com/praveen1295/praveen-portfolio)
+- **Live Portfolio (Vercel):** [https://praveen-portfolio-brown-five.vercel.app/](https://praveen-portfolio-brown-five.vercel.app/)
+- **Backend API (Vercel):** [https://praveen-portfolio-api.vercel.app](https://praveen-portfolio-api.vercel.app)
+- **GitHub Repository:** [https://github.com/praveen1295/praveen-portfolio](https://github.com/praveen1295/praveen-portfolio)
 
 ---
 
