@@ -323,11 +323,10 @@ export default function App() {
                   key={key}
                   type="button"
                   onClick={() => setSkillCat(key)}
-                  className={`rounded-lg px-3 py-1.5 text-xs font-semibold ${
-                    skillCat === key
-                      ? 'bg-indigo-600 text-white'
-                      : 'border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900'
-                  }`}
+                  className={`rounded-lg px-3 py-1.5 text-xs font-semibold ${skillCat === key
+                    ? 'bg-indigo-600 text-white'
+                    : 'border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900'
+                    }`}
                 >
                   {label}
                 </button>
@@ -364,11 +363,10 @@ export default function App() {
                     key={exp.id}
                     type="button"
                     onClick={() => setExpId(exp.id)}
-                    className={`text-left rounded-xl p-4 border transition ${
-                      expId === exp.id
-                        ? 'border-indigo-600 bg-indigo-50/70 dark:bg-indigo-950/40'
-                        : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900'
-                    }`}
+                    className={`text-left rounded-xl p-4 border transition ${expId === exp.id
+                      ? 'border-indigo-600 bg-indigo-50/70 dark:bg-indigo-950/40'
+                      : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900'
+                      }`}
                   >
                     <div className="text-sm font-bold">{exp.company}</div>
                     <div className="text-xs font-medium text-indigo-500 mt-0.5">{exp.role}</div>
@@ -422,11 +420,10 @@ export default function App() {
                   key={key}
                   type="button"
                   onClick={() => setProjCat(key)}
-                  className={`rounded-lg px-3.5 py-1.5 text-xs font-semibold ${
-                    projCat === key
-                      ? 'bg-indigo-600 text-white'
-                      : 'border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900'
-                  }`}
+                  className={`rounded-lg px-3.5 py-1.5 text-xs font-semibold ${projCat === key
+                    ? 'bg-indigo-600 text-white'
+                    : 'border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900'
+                    }`}
                 >
                   {label}
                 </button>
@@ -508,8 +505,7 @@ export default function App() {
             <div className="lg:col-span-5 space-y-4">
               <h2 className="text-2xl font-bold">Let's Connect</h2>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                Messages submitted here are saved directly to MongoDB and can be viewed or replied to from the Admin Panel.
-              </p>
+                Have an exciting role, interview, or project in mind? Send a message below or reach out directly—I'd love to hear from you.</p>
               <div className="space-y-2 text-sm">
                 <div>Email: <a href={`mailto:${profile.email}`} className="text-indigo-500 font-medium">{profile.email}</a></div>
                 <div>Phone: <a href={`tel:${profile.phone}`} className="font-medium">{profile.phone}</a></div>
